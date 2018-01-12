@@ -11,5 +11,6 @@
 
     <modules>
         <module>ddb-local-test</module>
+        <module>ddb-local-spring-boot</module>
     </modules>
 </project>
