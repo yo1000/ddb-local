@@ -58,6 +58,16 @@
 			<artifactId>sqlite4java</artifactId>
 			<version>${sqlite4java.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.derjust</groupId>
+			<artifactId>spring-data-dynamodb</artifactId>
+			<version>5.0.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
