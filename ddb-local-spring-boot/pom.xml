@@ -70,6 +70,12 @@
 			<artifactId>DynamoDBLocal</artifactId>
 			<version>${dynamodblocal.version}</version>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.amazonaws</groupId>
+					<artifactId>aws-java-sdk-core</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.almworks.sqlite4java</groupId>
